@@ -1,24 +1,21 @@
-# 🎮 Quiz Game with Leaderboard
+# Quiz Game with Leaderboard
 
 A console-based quiz game built with Java. Test your knowledge across multiple categories, earn points based on difficulty, and compete on the leaderboard!
 
-## ✨ Features
+## Features
 
-- 🗂️ **4 Categories** — Science, Technology, Math, General Knowledge
-- 🎯 **3 Difficulty Levels** — Easy (10pts), Medium (20pts), Hard (30pts)
-- 🏆 **Persistent Leaderboard** — Scores are saved to a file and ranked automatically
-- 📊 **Grade System** — S / A / B / C / D / F based on accuracy
-- ✅ **Input Validation** — Handles all invalid inputs gracefully
-- 🎨 **Styled UI** — ASCII art banner and box-drawing UI in console
+- **4 Categories** — Science, Technology, Math, General Knowledge
+- **3 Difficulty Levels** — Easy (10pts), Medium (20pts), Hard (30pts)
+- **Persistent Leaderboard** — Scores are saved to a file and ranked automatically
+- **Grade System** — S / A / B / C / D / F based on accuracy
+- **Input Validation** — Handles all invalid inputs gracefully
 
-## 📸 Demo
+## Demo
 
 ```
-  ██████╗ ██╗   ██╗██╗███████╗     ██████╗  █████╗ ███╗   ███╗███████╗
- ██╔═══██╗██║   ██║██║╚══███╔╝    ██╔════╝ ██╔══██╗████╗ ████║██╔════╝
  ...
 
-🎮  with Leaderboard  |  Java Edition  🎮
+with Leaderboard  |  Java Edition  
 
 ┌────────────────────────────┐
 │         MAIN MENU          │
@@ -30,7 +27,7 @@ A console-based quiz game built with Java. Test your knowledge across multiple c
 └────────────────────────────┘
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Java JDK 17 or higher
@@ -49,9 +46,9 @@ javac -d out src/quizgame/*.java
 java -cp out quizgame.Main
 ```
 
-> ⚠️ Run from the **project root folder** (`QuizGame/`) so the leaderboard file saves correctly.
+> Run from the **project root folder** (`QuizGame/`) so the leaderboard file saves correctly.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 QuizGame/
@@ -68,7 +65,7 @@ QuizGame/
 └── README.md
 ```
 
-## 🎯 How to Play
+## How to Play
 
 1. Enter your **player name**
 2. Choose a **category** (or All Categories)
@@ -76,7 +73,7 @@ QuizGame/
 4. Answer each question by typing **A, B, C, or D**
 5. See your **score, grade, and rank** on the leaderboard!
 
-## 📊 Scoring
+## Scoring
 
 | Difficulty | Points |
 |-----------|--------|
@@ -84,18 +81,18 @@ QuizGame/
 | Medium    | 20     |
 | Hard      | 30     |
 
-## 🏅 Grade System
+## Grade System
 
 | Grade | Accuracy |
 |-------|----------|
-| S 🌟  | 90–100%  |
-| A 🎉  | 80–89%   |
-| B 👍  | 70–79%   |
-| C 😊  | 60–69%   |
-| D 📖  | 50–59%   |
-| F 💪  | 0–49%    |
+| S     | 90–100%  |
+| A     | 80–89%   |
+| B     | 70–79%   |
+| C     | 60–69%   |
+| D     | 50–59%   |
+| F     | 0–49%    |
 
-## 🛠️ Concepts Used
+## Concepts Used
 
 - Object-Oriented Programming (OOP)
 - ArrayList & Collections
@@ -103,7 +100,3 @@ QuizGame/
 - Exception Handling
 - Comparable interface (for sorting)
 - Switch expressions (Java 14+)
-
-## 📝 License
-
-MIT License — feel free to use and modify!
